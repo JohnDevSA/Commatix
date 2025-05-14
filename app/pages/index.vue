@@ -1,7 +1,7 @@
 <template>
-<!--    <UContainer>-->
-<!--          <h1 >Hi there</h1>-->
-<!--    </UContainer>-->
+    <UContainer style="border: 2px solid black;">
+          <h1 >Hi there</h1>
+    </UContainer>
 </template>
 <script setup lang="ts">
 
