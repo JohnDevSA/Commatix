@@ -1,32 +1,33 @@
 <template>
   <!-- Sidebar -->
-  <aside
-      class="transition-all duration-300 bg-gray-900 text-white"
-      :class="sidebarOpen ? 'w-64' : 'w-0 overflow-hidden'"
-      style="border: 2px solid green"
-  >
-    <div class="p-4 space-y-6">
-      <div class="text-xl font-bold">Commatixx</div>
-      <nav class="space-y-2">
-        <NuxtLink
-            v-for="link in links"
-            :key="link.to"
-            :to="link.to"
-            class="block px-4 py-2 rounded hover:bg-gray-800 transition-colors"
-        >
-            <span class="inline-flex items-center space-x-2">
-              <i :class="link.icon" class="w-5 h-5"></i>
-              <span>{{ link.label }}</span>
-            </span>
-        </NuxtLink>
-      </nav>
+<!--  <aside-->
+<!--      class="transition-all duration-300 text-black"-->
+<!--      :class="sidebarOpen ? 'w-64' : 'w-0 overflow-hidden'"-->
+<!--      style="border: 2px solid green"-->
+<!--  >-->
+    <div class="overflow-y-scroll sticky top-4 h-[calc(100vh-32px-48px)]">
+      <p>Hi therex</p>
+<!--      <div class="text-xl font-bold">Commatixx</div>-->
+<!--      <nav class="space-y-2">-->
+<!--        <NuxtLink-->
+<!--            v-for="link in links"-->
+<!--            :key="link.to"-->
+<!--            :to="link.to"-->
+<!--            class="block px-4 py-2 rounded hover:bg-gray-800 transition-colors"-->
+<!--        >-->
+<!--            <span class="inline-flex items-center space-x-2">-->
+<!--              <i :class="link.icon" class="w-5 h-5"></i>-->
+<!--              <span>{{ link.label }}</span>-->
+<!--            </span>-->
+<!--        </NuxtLink>-->
+<!--      </nav>-->
     </div>
-  </aside>
+<!--  </aside>-->
 </template>
 <script setup lang="ts">
 import { ref, watch } from 'vue'
 
-const sidebarOpen = ref(false)
+const sidebarOpen = ref(true)
 
 // if (process.client) {
 //   const stored = localStorage.getItem('sidebar')
