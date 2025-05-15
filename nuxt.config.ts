@@ -16,11 +16,12 @@ export default defineNuxtConfig({
   modules: [
       '@nuxt/ui',
      '@pinia/nuxt',
+     '@nuxt/icon',
      'pinia-plugin-persistedstate/nuxt',
   ],
   components: [
     { path: '~/components/layout', prefix: 'Layout' }, // e.g., <LayoutHeader />
     // { path: '~/components/ui', prefix: 'Ui' },          // optional
-    // { path: '~/components/forms', prefix: 'Form' },     // optional
+    // { path: '~/components/form', prefix: 'Form' },     // optional
   ],
 })

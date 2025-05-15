@@ -5,7 +5,7 @@
 <!--      :class="sidebarOpen ? 'w-64' : 'w-0 overflow-hidden'"-->
 <!--      style="border: 2px solid green"-->
 <!--  >-->
-    <div class="overflow-y-scroll sticky top-4 h-[calc(100vh-32px-48px)]">
+    <div class="overflow-y-scroll sticky top-4 h-[calc(90vh-32px-48px)]">
       <p>Hi therex</p>
 <!--      <div class="text-xl font-bold">Commatixx</div>-->
 <!--      <nav class="space-y-2">-->
