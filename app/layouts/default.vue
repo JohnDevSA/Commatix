@@ -15,4 +15,5 @@
   </div>
 </template>
 <script setup lang="ts">
+  const showSidebar = ref(true);
 </script>

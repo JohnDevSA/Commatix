@@ -1,6 +1,6 @@
 <template>
   <UContainer>
-    <div>
+    <div class="ml-5 px-5">
       <header class="sticky top-0 z-50  shadow">
         <NavigationMenu>
           <UNavigationMenu
