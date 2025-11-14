@@ -15,5 +15,7 @@
   </div>
 </template>
 <script setup lang="ts">
-  const showSidebar = ref(true);
+import { ref } from 'vue'
+
+const showSidebar = ref(true);
 </script>
